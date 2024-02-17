@@ -3,6 +3,8 @@
 
 import { useState } from "react";
 import data from "./data.js";
+import "./styles.css";
+
 
 export default function Accordion() {
     const [selected, setSelected] = useState(null);
@@ -14,6 +16,7 @@ export default function Accordion() {
     console.log(selected);
 
     return <div className="wrapper">
+            <button>Enable MultiSelection</button>
         <div className="accordion">
             {
                 data && data.length > 0 ? (
