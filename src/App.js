@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       {/* Accordion component */}
-      <Accordion/>
+      {/* <Accordion/> */}
       {/* Random color component */}
-      <RandomColor/>
+      {/* <RandomColor/> */}
       {/* Star rating component */}
       <StarRating noOfStars={10} />
     </div>
