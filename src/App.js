@@ -6,6 +6,7 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
+import LightDarkMode from "./light-dark-mode";
 import QRCodeGenerator from "./qr-code-generator";
 
 function App() {
@@ -34,7 +35,10 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* QR Code Generator */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* light/dark mode */}
+      <LightDarkMode />
     </div>
   );
 }
